@@ -985,11 +985,11 @@
   "variable": [
     {
       "key": "baseUrl",
-      "value": ""
+      "value": "https://api.restful-api.dev/collections/products/objects"
     },
     {
       "key": "x-api-key",
-      "value": ""
+      "value": "d56ab4de-c7db-47c8-8155-fe0bdb245757"
     }
   ]
 }
