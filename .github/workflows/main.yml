@@ -33,7 +33,7 @@ jobs:
         run: mkdir -p ./reports
 
       - name: Run Rest_API_Authenticated_Newman_
-        run: npx newman run Rest_API_Authenticated_.postman_collection.json --env-var BaseUrl=https://api.restful-api.dev/collections/products/objects --env-var x-api-key=d56ab4de-c7db-47c8-8155-fe0bdb245757
+        run: npx newman run Rest_API_Authenticated_.postman_collection.json --env-var BaseUrl=https://api.restful-api.dev/collections/products/objects --env-var x-api-key=d56ab4de-c7db-47c8-8155-fe0bdb245757 --reporter-htmlextra-export reports/report.html
 
       - name: Upload HTML Report
         uses: actions/upload-artifact@v5
