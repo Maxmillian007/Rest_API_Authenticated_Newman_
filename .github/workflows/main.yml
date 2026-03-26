@@ -35,7 +35,7 @@ jobs:
       - name: Run Rest_API_Authenticated_Newman_
         run: npx newman run Rest_API_Authenticated_.postman_collection.json --env-var BaseUrl=https://api.restful-api.dev/collections/products/objects --env-var x-api-key=d56ab4de-c7db-47c8-8155-fe0bdb245757 --reporter-htmlextra-export reports/report.html
 
-      - name: Run Rest_API_Authenticated_Newman_
+      - name: Run Simple Book API
         run: npx newman run Simple Book API.postman_collection.json --env-var baseUrl=https://simple-books-api.click --env-var accessToken=ee0cc8a78394d0ac261c523fbbd47f84a1fc2861a1605277488d2e3ca2eada2a --reporter-htmlextra-export reports/report.html
 
       - name: Upload HTML Report
