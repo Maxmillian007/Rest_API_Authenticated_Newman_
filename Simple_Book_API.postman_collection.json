@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "b8f5d00d-3faf-487f-a5e8-3bcbfa0d8dd5",
-    "name": "Simple Book API",
+    "name": "Simple_Book_API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "_exporter_id": "49001497",
     "_collection_link": "https://go.postman.co/collection/49001497-b8f5d00d-3faf-487f-a5e8-3bcbfa0d8dd5?source=collection_link"
